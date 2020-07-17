@@ -1,0 +1,11 @@
+name      url           verb     desc.
+
+_____________________________________________________
+
+index     /dog           GET      Display a List of all Dogs
+new      /dog/new        GET      Display form to make a new Dog
+create    /dog           POST     Add new dog to Database
+show     /dog/:id        GET      Show info. about one dog
+edit     /dog/:id/edit   GET      Show edit for one dog
+Update   /dog/:id        PUT      Update a particular dog and then redirect someWhere
+Destroy  /dog/:id        DELETE   Delete a particular dog and then redirect someWhere
